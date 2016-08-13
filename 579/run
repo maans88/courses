@@ -1,0 +1,10 @@
+latex micro.tex
+bibtex micro
+latex micro.tex
+pdflatex micro.tex
+
+rm micro.aux
+rm micro.log
+rm micro.dvi
+rm micro.bbl
+rm micro.blg
